@@ -1,9 +1,0 @@
-.vscode
-/bin
-/firmware
-/include
-*.mk
-*.json
-Makefile
-*.pros
-/src/*/

@@ -18,7 +18,6 @@ void initialize() {
  */
 void disabled() {
 
-
 }
 
 /**
