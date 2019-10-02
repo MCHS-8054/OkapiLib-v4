@@ -15,18 +15,18 @@ using namespace okapi;
 * from where it left off.
 */
 
-auto drive = ChassisControllerBuilder()
-.withMotors(leftMotors, rightMotors)
-.withSensors(
-  {'A', 'B'},       // Left encoder in ADI ports A & B
-  {'C', 'D', true}, // Right encoder in ADI ports C & D (reversed)
-  {'E', 'F'}        // Back encoder
-)
-.withDimensions({{4.1_in, 11.5_in, 2_in, 3.25_in}, 360})
-.build();
+// auto drive = ChassisControllerBuilder()
+// .withMotors(leftMotors, rightMotors)
+// .withSensors(
+//   {'A', 'B'},       // Left encoder in ADI ports A & B
+//   {'C', 'D', true}, // Right encoder in ADI ports C & D (reversed)
+//   {'E', 'F'}        // Back encoder
+// )
+// .withDimensions({{4.1_in, 11.5_in, 2_in, 3.25_in}, 360})
+// .build();
 
 void autonomous() {
 
-  drive->moveDistance(100);
+  //drive->moveDistance(100);
 
 }
